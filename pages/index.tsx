@@ -39,7 +39,7 @@ export default defineComponent(() => {
                     <Icon name='ic:baseline-calendar-month' />
                     <div class='text-sm'>{dayjs().format('MMMM DD, YYYY')}</div>
                   </div>
-                  <div class='line-clamp-2 text-xl font-bold'>Sparks of inspiration to Blasters Have Lost</div>
+                  <div class='line-clamp-2 text-xl font-bold'>Sparks of inspiration to Blasters Have Lost2</div>
                 </div>
               </div>
             </div>
