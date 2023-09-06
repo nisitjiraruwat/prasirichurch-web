@@ -19,6 +19,13 @@ module.exports = {
           DEFAULT: colors.neutral[800]
         }
       },
+      spacing: {
+        ...[...Array(52)].reduce((spaces, _, index) => {
+          const key = 4 + (index + 1) * 0.5
+          const size = 0.25 * key
+          return { ...spaces, [`${key}`]: `${size}rem` }
+        }, {})
+      },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif']
       }
