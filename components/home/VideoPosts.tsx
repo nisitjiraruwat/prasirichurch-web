@@ -5,7 +5,7 @@ import { Icon } from '#components'
 export default defineComponent(() => {
   return () => (
     <div class='w-full bg-gray-100'>
-      <div class='mx-auto w-full px-3 pb-15 pt-14 lg:max-w-[1400px]'>
+      <div class='mx-auto w-full px-3 pb-15 pt-14 lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1600px]'>
         <div class='flex w-full space-x-2'>
           <div class='flex w-7/12 items-center space-x-5'>
             <h3 class='text-3xl font-bold'>Video Post</h3>

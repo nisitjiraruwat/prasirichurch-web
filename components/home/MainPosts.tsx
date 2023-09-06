@@ -4,7 +4,7 @@ import { Icon } from '#components'
 
 export default defineComponent(() => {
   return () => (
-    <div class='mx-auto w-full px-3 pb-15 pt-14 lg:max-w-[1400px]'>
+    <div class='mx-auto w-full px-3 pb-15 pt-14 lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1600px]'>
       <div class='flex w-full'>
         <div class='w-9/12'>
           <div class='flex w-full space-x-2'>

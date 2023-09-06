@@ -3,7 +3,7 @@ import { NuxtLink } from '#components'
 export default defineComponent(() => {
   return () => (
     <div class='sticky h-26.5 shadow-md'>
-      <div class='mx-auto flex h-full items-center lg:w-[1000px] xl:w-[1200px]'>
+      <div class='mx-auto flex h-full w-full items-center px-3 lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1600px]'>
         <div class='w-3/12'>
           <img
             src='/images/logo.png'
