@@ -34,10 +34,28 @@ export default defineComponent(() => {
           </div>
           <div class='mt-12 flex w-full'>
             <div class='w-7/12 pr-3'>
-              <img
-                src='/images/hero-bg-2.jpg'
-                class='aspect-[4/3] w-full rounded-lg object-cover'
-              />
+              <div class='relative w-full'>
+                <img
+                  src='/images/hero-bg-2.jpg'
+                  class='absolute top-0 -z-20 aspect-[4/3] w-full rounded-lg object-cover'
+                />
+                <div class='absolute top-0 -z-10 aspect-[4/3] w-full rounded-lg bg-black/40'/>
+                <div class='flex aspect-[4/3] w-full items-end p-7.5 '>
+                  <div class='h-25'>
+                    <div class='flex items-center space-x-4'>
+                      <div class='inline-block rounded bg-red-500 px-4 text-sm font-bold leading-8 text-white'>Technology</div>
+                      <div class='flex items-center space-x-1 text-neutral-100'>
+                        <Icon
+                          class='text-[24px]'
+                          name='ic:baseline-calendar-month'
+                        />
+                        <div>{dayjs().format('MMMM DD, YYYY')}</div>
+                      </div>
+                    </div>
+                    <div class='mt-4 line-clamp-2 text-xl font-bold text-white'>Sparks of inspiration to Blasters Have Lost2</div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class='flex w-5/12 px-4'>
               <ul class='divide-y divide-neutral-200'>
