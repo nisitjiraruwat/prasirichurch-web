@@ -8,7 +8,7 @@ export default defineComponent(() => {
       <div class='mx-auto w-full px-3 pb-15 pt-14 lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1600px]'>
         <div class='flex w-full space-x-2'>
           <div class='flex w-7/12 items-center space-x-5'>
-            <h3 class='text-3xl font-bold'>Video Post</h3>
+            <h3 class='text-3xl font-bold'>Video Posts</h3>
             <div class='h-1 flex-1 bg-red-600' />
           </div>
           <div class='flex w-5/12 items-center justify-end'>
