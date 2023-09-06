@@ -6,7 +6,7 @@ export default defineComponent(() => {
   const members = ref([
     {
       id: 1,
-      name: 'ชื่อ',
+      name: 'ประเสริฐ  สืบทายาท',
       role: 'ตำแหน่ง'
     },
     {
@@ -61,7 +61,7 @@ export default defineComponent(() => {
       <div class='bg-neutral-100'>
         <div class='mx-auto w-full px-30 py-15 lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1600px]'>
           <h3 class='text-center text-3xl font-bold'>คณะกรรมการ</h3>
-          <div class='mt-7.5 grid grid-cols-3 gap-15'>
+          <div class='mt-12 grid grid-cols-3 gap-15'>
             {members.value.map((member) => {
               return (
                 <div
