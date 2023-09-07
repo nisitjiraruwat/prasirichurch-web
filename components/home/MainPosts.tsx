@@ -36,7 +36,7 @@ export default defineComponent(() => {
             <div class='w-7/12 pr-3'>
               <div class='relative w-full'>
                 <img
-                  src='/images/hero-bg-2.jpg'
+                  src='/images/posts/1.jpeg'
                   class='absolute top-0 -z-20 aspect-[4/3] w-full rounded-lg object-cover'
                 />
                 <div class='absolute top-0 -z-10 aspect-[4/3] w-full rounded-lg bg-black/40'/>
@@ -52,7 +52,7 @@ export default defineComponent(() => {
                         <div>{dayjs().format('MMMM DD, YYYY')}</div>
                       </div>
                     </div>
-                    <div class='mt-4 line-clamp-2 text-xl font-bold text-white'>Sparks of inspiration to Blasters Have Lost2</div>
+                    <div class='mt-4 line-clamp-2 text-xl font-bold text-white'>โครงการขายออนไลน์</div>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export default defineComponent(() => {
                 <li class='py-7.5 first:pt-0'>
                   <div class='relative flex'>
                     <img
-                      src='/images/hero-bg-2.jpg'
+                      src='/images/posts/2.jpg'
                       class='aspect-[6/5] w-29 rounded-md object-cover'
                     />
                     <div class='ml-5'>
@@ -74,7 +74,7 @@ export default defineComponent(() => {
                         />
                         <div class='text-xs'>{dayjs().format('MMMM DD, YYYY')}</div>
                       </div>
-                      <div class='mt-4 line-clamp-2 text-lg font-bold'>Sparks of inspiration to Blasters Have Lost2</div>
+                      <div class='mt-4 line-clamp-2 text-lg font-bold'>โครงการเงินตลันต์</div>
                     </div>
                   </div>
                 </li>
