@@ -51,7 +51,7 @@ export default defineComponent(() => {
                   <div class='rounded bg-red-100 px-4 text-sm font-bold leading-6 text-red-500 hover:bg-red-500 hover:text-white'>Technology</div>
                   <div class='flex items-center space-x-1 text-neutral-500'>
                     <Icon
-                      class='text-[14px]'
+                      class='flex-none text-[14px]'
                       name='ic:baseline-calendar-month'
                     />
                     <div class='text-xs'>{dayjs().format('MMMM DD, YYYY')}</div>
@@ -77,7 +77,7 @@ export default defineComponent(() => {
                 <div class='inline-block rounded bg-red-100 px-4 text-sm font-bold leading-6 text-red-500 hover:bg-red-500 hover:text-white'>Technology</div>
                 <div class='mt-1.5 flex items-center space-x-1 text-neutral-500'>
                   <Icon
-                    class='text-[14px]'
+                    class='flex-none text-[14px]'
                     name='ic:baseline-calendar-month'
                   />
                   <div class='text-xs'>{dayjs().format('MMMM DD, YYYY')}</div>
@@ -104,7 +104,7 @@ export default defineComponent(() => {
                 <div class='inline-block rounded bg-red-100 px-4 text-sm font-bold leading-6 text-red-500 hover:bg-red-500 hover:text-white'>Technology</div>
                 <div class='mt-1.5 flex items-center space-x-1 text-neutral-500'>
                   <Icon
-                    class='text-[14px]'
+                    class='flex-none text-[14px]'
                     name='ic:baseline-calendar-month'
                   />
                   <div class='text-xs'>{dayjs().format('MMMM DD, YYYY')}</div>
@@ -131,7 +131,7 @@ export default defineComponent(() => {
                 <div class='inline-block rounded bg-red-100 px-4 text-sm font-bold leading-6 text-red-500 hover:bg-red-500 hover:text-white'>Technology</div>
                 <div class='mt-1.5 flex items-center space-x-1 text-neutral-500'>
                   <Icon
-                    class='text-[14px]'
+                    class='flex-none text-[14px]'
                     name='ic:baseline-calendar-month'
                   />
                   <div class='text-xs'>{dayjs().format('MMMM DD, YYYY')}</div>
@@ -156,7 +156,7 @@ export default defineComponent(() => {
                 <div class='inline-block rounded bg-red-100 px-4 text-sm font-bold leading-6 text-red-500 hover:bg-red-500 hover:text-white'>Technology</div>
                 <div class='mt-1.5 flex items-center space-x-1 text-neutral-500'>
                   <Icon
-                    class='text-[14px]'
+                    class='flex-none text-[14px]'
                     name='ic:baseline-calendar-month'
                   />
                   <div class='text-xs'>{dayjs().format('MMMM DD, YYYY')}</div>

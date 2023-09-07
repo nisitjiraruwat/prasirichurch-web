@@ -26,6 +26,9 @@ module.exports = {
           return { ...spaces, [`${key}`]: `${size}rem` }
         }, {})
       },
+      fontSize: {
+        sm: ['14px', `${14 * 1.5}px`]
+      },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif']
       }

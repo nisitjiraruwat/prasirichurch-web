@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 
-import { Icon } from '#components'
+import { Icon, NuxtLink } from '#components'
 
 import MainPosts from '~/components/home/MainPosts'
 import VideoPosts from '~/components/home/VideoPosts'
@@ -26,37 +26,55 @@ export default defineComponent(() => {
                 <div class='text-sm'>{dayjs().format('MMMM DD, YYYY')}</div>
               </div>
             </div>
-            <div class='mt-4 line-clamp-2 text-[42px] font-bold text-white'>โครงการขายออนไลน์</div>
+            <h3 class='mt-4 line-clamp-2'>
+              <NuxtLink
+                class='text-[42px] font-bold text-white'
+                to='/posts/posta'
+              >
+                โครงการขายออนไลน์
+              </NuxtLink>
+            </h3>
           </div>
         </div>
         <div>
           <div class='relative float-right -mt-40 mr-20 h-40 w-[850px] rounded-t-lg bg-white p-5'>
             <div class='flex'>
               <div class='flex w-[380px]'>
-                <img
-                  src='/images/posts/1.jpeg'
-                  class='h-[120px] w-[120px] rounded-md object-cover'
-                />
+                <NuxtLink to='/posts/posta'>
+                  <img
+                    src='/images/posts/1.jpeg'
+                    class='h-[120px] w-[120px] rounded-md object-cover'
+                  />
+                </NuxtLink>
                 <div class='ml-5'>
                   <div class='inline-flex items-center space-x-2 text-neutral-500'>
                     <Icon name='ic:baseline-calendar-month' />
                     <div class='text-sm'>{dayjs().format('MMMM DD, YYYY')}</div>
                   </div>
-                  <div class='text-xl font-bold'>โครงการขายออนไลน์</div>
+                  <div class='text-xl font-bold hover:text-red-700'>
+                    <NuxtLink to='/posts/posta'>
+                      โครงการขายออนไลน์
+                    </NuxtLink>
+                  </div>
                 </div>
               </div>
               <div class='relative flex w-[470px] pl-[90px]'>
-                <div class='absolute left-11 top-1/2 h-20 w-0.5 -translate-y-1/2 bg-neutral-200' />
-                <img
-                  src='/images/posts/2.jpg'
-                  class='h-[120px] w-[120px] rounded-md object-cover'
-                />
+                <NuxtLink to='/posts/postb'>
+                  <img
+                    src='/images/posts/2.jpg'
+                    class='h-[120px] w-[120px] rounded-md object-cover'
+                  />
+                </NuxtLink>
                 <div class='ml-5'>
                   <div class='inline-flex items-center space-x-2 text-neutral-500'>
                     <Icon name='ic:baseline-calendar-month' />
                     <div class='text-sm'>{dayjs().format('MMMM DD, YYYY')}</div>
                   </div>
-                  <div class='line-clamp-2 text-xl font-bold'>โครงการเงินตลันต์</div>
+                  <div class='line-clamp-2 text-xl font-bold hover:text-red-700'>
+                    <NuxtLink to='/posts/posta'>
+                      โครงการเงินตลันต์
+                    </NuxtLink>
+                  </div>
                 </div>
               </div>
             </div>
