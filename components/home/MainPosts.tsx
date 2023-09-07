@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 
-import { Icon } from '#components'
+import { Icon, NuxtLink } from '#components'
 
 export default defineComponent(() => {
   return () => (
@@ -52,7 +52,9 @@ export default defineComponent(() => {
                         <div>{dayjs().format('MMMM DD, YYYY')}</div>
                       </div>
                     </div>
-                    <div class='mt-4 line-clamp-2 text-xl font-bold text-white'>โครงการขายออนไลน์</div>
+                    <div class='mt-4 line-clamp-2 text-xl font-bold text-white'>
+                      <NuxtLink to='/posts/posta'>โครงการขายออนไลน์</NuxtLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -61,10 +63,12 @@ export default defineComponent(() => {
               <ul class='divide-y divide-neutral-200'>
                 <li class='py-7.5 first:pt-0'>
                   <div class='relative flex'>
-                    <img
-                      src='/images/posts/2.jpg'
-                      class='aspect-[6/5] w-29 rounded-md object-cover'
-                    />
+                    <NuxtLink to='/posts/postb'>
+                      <img
+                        src='/images/posts/2.jpg'
+                        class='aspect-[6/5] w-29 rounded-md object-cover'
+                      />
+                    </NuxtLink>
                     <div class='ml-5'>
                       <div class='inline-block rounded bg-red-100 px-4 text-sm font-bold leading-6 text-red-500 hover:bg-red-500 hover:text-white'>Technology</div>
                       <div class='mt-1.5 flex items-center space-x-1 text-neutral-500'>
@@ -74,7 +78,9 @@ export default defineComponent(() => {
                         />
                         <div class='text-xs'>{dayjs().format('MMMM DD, YYYY')}</div>
                       </div>
-                      <div class='mt-4 line-clamp-2 text-lg font-bold'>โครงการเงินตลันต์</div>
+                      <div class='mt-4 line-clamp-2 text-lg font-bold hover:text-red-700'>
+                        <NuxtLink to='/posts/postb'>โครงการเงินตลันต์</NuxtLink>
+                      </div>
                     </div>
                   </div>
                 </li>
